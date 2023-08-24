@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    text-align: left;
+}
+
+.container-fluid{
+    padding-left: 1.75rem !important;
+    padding-right: 1.75rem !important;
+}
+
+.quiz-card {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+}
+
+
+#result {
+    text-align: center;
+}
+
+
+.option {
+    cursor: pointer;
+    accent-color: black;
+}
+
+.option, label{
+    margin: 10px 0;
+    padding: 5px;
+}
+
+
+#main,#result{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+}
